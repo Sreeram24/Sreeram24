@@ -46,6 +46,8 @@ except:
     flag=False
 if(flag):
     print("\n*The domain contains MTA-STS record!\n",result[0])
+    
+    print("\n*TEST\n",result[0])
 
 #---------------------------------------------------------------------------
 #checking DMARC
